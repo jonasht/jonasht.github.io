@@ -1,0 +1,94 @@
+html, body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  .container{
+    max-width: 1350px;
+    margin: 0px auto;
+    padding: 0;
+  }
+  
+  div{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  
+  .a1{
+    display: inline-block;
+    padding: 15px 0;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(143, 188, 143, 0.822);
+  }
+
+  .aPerfilCima{
+    display: inline-block;
+    padding: 1px 0;
+    width: 100%;
+    text-align: left;
+    color: rgba(53, 88, 7, 0.651);
+  }
+  
+
+  .afotoDePerfil{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    
+    padding: 0px 0;
+    margin: 0px;
+    background-color: rgba(214, 223, 231, 0.219);
+    
+  }
+
+  
+  .a3_1{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+    padding: 23px 0;
+     
+  }
+  .a3_2{
+    display: inline-block;
+    float: right;
+    width: 80%;
+    text-align: right;
+    padding: 26px 0;
+     
+  }  
+  .a4{
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: unset;
+    
+    padding: 120px 0;
+  }
+  
+  .a5{
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 120px 0;
+  }
+  
+  .a6{
+    display: inline-block;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 120px 0;
+  }  
+  
+  
+  
+  
