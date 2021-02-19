@@ -8,7 +8,7 @@ html, body{
 
   
   .container{
-    max-width: 1350px;
+    max-width: 1300px;
     margin: 0px auto;
     padding: 0;
   }
@@ -26,6 +26,8 @@ html, body{
     width: 100%;
     text-align: center;
     background-color: rgba(143, 188, 143, 0.822);
+    color: aliceblue;
+    font-size: larger;
   }
 
   .aPerfilCima{
@@ -33,7 +35,7 @@ html, body{
     padding: 1px 0;
     width: 100%;
     text-align: left;
-    color: rgba(53, 88, 7, 0.651);
+    color: darkgreen;
   }
   
 
@@ -69,7 +71,7 @@ html, body{
     float: left;
     width: 33.33%;
     text-align: unset;
-    
+    color: darkgreen;
     padding: 120px 0;
   }
   
