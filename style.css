@@ -1,0 +1,29 @@
+/* .container {
+    background-color: blueviolet;
+} */
+
+.afotoDePerfil {
+    background-color: gainsboro;
+    padding: 10px 0px 5px 0px;
+    width: 200px;
+    float: left;
+}
+
+.a3_1{
+    background-color: blue;
+    float: right;
+    width: auto;
+}
+.a3_2{
+    background-color: yellow;
+    float: right;
+    width: auto;
+    
+}
+
+.col4 {
+    background-color: greenyellow;
+
+    float: left;
+    
+}
