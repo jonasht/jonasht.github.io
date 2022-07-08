@@ -3,7 +3,7 @@
 } */
 
 .afotoDePerfil {
-    background-color: gainsboro;
+    background-color: rgba(220, 220, 220, 0.854);
     padding: 10px 0px 5px 0px;
     width: 200px;
     float: left;
@@ -21,7 +21,8 @@
     
 }
 
-.col4 {
+
+.contato {
     background-color: greenyellow;
 
     float: left;

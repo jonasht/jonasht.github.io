@@ -1,0 +1,39 @@
+.cima{
+    background-color: darkgreen;
+}
+
+
+.d1 {
+    background-color: lightblue;
+    height: 300px;
+    width: 30%;
+    float: left;
+    display: block;
+    position: fixed;
+
+}
+
+
+
+.d2 {
+    background-color: pink;
+    float: right;
+    width: 70%;
+    height: 150px;
+}
+
+ .d3 {
+    background-color: blanchedalmond;
+    float: right;
+    width: 70%;
+    height: 150px;
+
+
+ }
+
+.contato {
+    background-color: lightgreen;
+    
+
+    
+} 
