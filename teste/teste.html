@@ -5,35 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+          
+
+        }
+        .cima {
+            width: 100%;
+
+            background-color: blueviolet;
+        }
+        .container {
+            /* width: 100%;
+
+            height: 100%; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        .d1 {
+            width: 200px;
+
+            background-color: blue;
+
+        }
+
+        .right {
+            width: 100%;
+
+        }
+        .d2 {
+            width: 100%;
+
+            background-color: red;
+        }
+
+        .d3 {
+            width: 100%;
+            background-color: green;
+        }
+
+        .d4 {
+            background-color: lightgreen;
+        }
+
+    </style>
 </head>
 
 
 <body>
-    <div class="cima" >
-        <h1>cima</h1>
-    </div>
+        <div class="cima" >
+            <h1>cima</h1>
+        </div>    
+    <div class="container">
+
+            <div class="d d1">
+                <p>d1</p>
+            </div>
+        <div class="right">
+
+            <div class="d d2">
+                <p>d2</p>
+            </div>
 
 
-    <div class="d1">
-        <p>d1</p>
-    </div>
+            <div class="d d3">
+                <p>d3</p>
+            </div>
 
+        </div>
 
-
-
-    <div class="d2">
-        <p>d2</p>
-    </div>
-
-
-    <div class="d3">
-        <p>d3</p>
-
-    </div>
-
-    <div class="contato">
-        <p>d5 contato</p>
+        <div class="d d4 contato">
+            <p>d4 contato</p>
+        </div>
     </div>
 </body>
 </html>
