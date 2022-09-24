@@ -1,39 +1,78 @@
-.cima{
-    background-color: darkgreen;
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', monospace;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+
 }
 
-
-.d1 {
-    background-color: lightblue;
-    height: 300px;
-    width: 30%;
-    float: left;
-    display: block;
-    position: fixed;
+.container {
+    display: inline-flex;
 
 }
 
+.container .estatico {
+    color: rgb(65, 125, 5);
+    font-size: 60px;
+    font-weight: 400;
 
-
-.d2 {
-    background-color: pink;
-    float: right;
-    width: 70%;
-    height: 150px;
 }
 
- .d3 {
-    background-color: blanchedalmond;
-    float: right;
-    width: 70%;
-    height: 150px;
+.container .dinamico {
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
 
 
- }
+}
 
-.contato {
-    background-color: lightgreen;
-    
+.dinamico li{
+    color: chartreuse;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    left: 0;
+    top: 0;
+    position: relative;
+    animation: slide 10s steps(4) infinite;
 
-    
-} 
+
+}
+
+@keyframes slide{
+    100%{
+        top: -360px;
+
+    }
+}
+.dinamico li span::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-left: 4px solid chartreuse;
+    animation: typing 2.5s steps(10) infinite;
+    background: black;
+}
+
+.dinamico li span {
+    position: relative;
+}
+@keyframes typing {
+    100% { 
+        left: 100%;
+        margin: 0 -35px 0 -35px;
+    }
+}
